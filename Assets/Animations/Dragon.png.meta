@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 983a3718f9ce7704e8a9e9c44a945dc2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dragon Head
+    21300002: Dragon Body
+    21300004: Dragon Tail
+    21300006: Dragon End Tail
+    21300008: Dragon LLeg
+    21300010: Dragon RArm
+    21300012: Dragon RLeg
+    21300014: Dragon LArm
+    21300016: Dragon RClaw
+    21300018: Dragon LClaw
+    21300020: Dragon RForearm
+    21300022: Dragon LForearm
+    21300024: Wat
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Dragon Head
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 74
+        width: 209
+        height: 197
+      alignment: 9
+      pivot: {x: .639511108, y: .135262966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dragon Body
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 98
+        width: 117
+        height: 173
+      alignment: 9
+      pivot: {x: .384294301, y: .427767545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dragon Tail
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 132
+        width: 108
+        height: 139
+      alignment: 9
+      pivot: {x: .123956747, y: .136651024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dragon End Tail
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 167
+        width: 56
+        height: 103
+      alignment: 9
+      pivot: {x: .416320264, y: .0804267079}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dragon LLeg
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 15
+        width: 90
+        height: 115
+      alignment: 9
+      pivot: {x: .471073747, y: .771656871}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dragon RArm
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 121
+        width: 56
+        height: 43
+      alignment: 9
+      pivot: {x: .797528923, y: .669522285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dragon RLeg
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 5
+        width: 101
+        height: 90
+      alignment: 9
+      pivot: {x: .82477802, y: .575208604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dragon LArm
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 72
+        width: 80
+        height: 47
+      alignment: 9
+      pivot: {x: .129018784, y: .411374182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dragon RClaw
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 33
+        width: 48
+        height: 39
+      alignment: 9
+      pivot: {x: .803727448, y: .259688169}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dragon LClaw
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 43
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dragon RForearm
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 32
+        width: 24
+        height: 40
+      alignment: 9
+      pivot: {x: .65186435, y: .226645663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dragon LForearm
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 33
+        width: 23
+        height: 39
+      alignment: 9
+      pivot: {x: .522638738, y: .767012954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wat
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 16
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
