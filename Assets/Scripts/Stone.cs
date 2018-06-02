@@ -3,13 +3,6 @@ using System.Collections;
 
 public class Stone : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	//For now -- only is used as a tag
 	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }
