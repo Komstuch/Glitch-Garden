@@ -35,7 +35,7 @@ public class Fox : MonoBehaviour {
 			attacker.Attack(obj);
 		}
 		
-		Debug.Log ("Fox collided with " + collider);
+		//Debug.Log ("Fox collided with " + collider);
 	
 	}
 }

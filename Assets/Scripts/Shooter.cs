@@ -3,21 +3,21 @@ using System.Collections;
 
 public class Shooter : MonoBehaviour {
 
-	public GameObject projectile, projectileParent, gun;
+	public GameObject projectile, gun;
+	private GameObject projectileParent;
 	
 	private void Fire(){
-		GameObject newProjectile = Instantiate (projectile) as GameObject;
+		GameObject newProjectile = Instantiate (projectile) as GameObject;	
 		newProjectile.transform.parent = projectileParent.transform;
 		newProjectile.transform.position = gun.transform.position;
 	}
-	
-	// Use this for initialization
+
 	void Start () {
-	
+		projectileParent = GameObject.Find("Projectiles");
+		
+		if(!projectileParent){
+			projectileParent = new GameObject("Projectiles");
+		}
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }
