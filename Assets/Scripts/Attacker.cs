@@ -6,6 +6,8 @@ public class Attacker : MonoBehaviour {
 	
 	//[Range(-1f, 1.5f)] public float currentSpeed; - give constrains to a value
 	private float currentSpeed;
+	[Tooltip("Average number of seconds between appearances")]
+	public float seenEverySeconds;
 	private GameObject currentTarget;
 	private Animator animator;
 	
