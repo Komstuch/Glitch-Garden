@@ -62,4 +62,3 @@ public class Shooter : MonoBehaviour {
 		return false;	
 	}
 }
-// animator = GetComponent<Animator>();
