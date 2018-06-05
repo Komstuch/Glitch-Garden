@@ -31,10 +31,6 @@ public class Spawner : MonoBehaviour {
 		
 		float threshold = spawnsPerSecond * Time.deltaTime/5; // By multiplying by Time.deltaTime we "convert" the calculation from frames to seconds (/5 because of 5 lanes)
 		
-		if(Random.value < threshold) {
-			return true;
-		} else {
-			return false;
-		}
+		return (Random.value < threshold);
 	}
 }

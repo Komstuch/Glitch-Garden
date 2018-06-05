@@ -6,7 +6,8 @@ using System.Collections;
 public class StarDisplay : MonoBehaviour {
 
 	private Text starText;
-	private int stars = 0;
+	private int stars = 100;
+	public enum Status {SUCCESS, FAILURE};
 	
 	void Start(){
 		starText = GetComponent<Text>();
@@ -18,11 +19,18 @@ public class StarDisplay : MonoBehaviour {
 		UpdateDisplay();
 	}
 	
-	public void UseStars( int ammount){
-		
+	public Status UseStars(int ammount){
+		if(stars >= ammount){
+			stars -= ammount;
+			UpdateDisplay();
+			return Status.SUCCESS;
+		}
+		return Status.FAILURE;
 	}
 	
 	private void UpdateDisplay(){
 		starText.text = stars.ToString();
 	}
 }
+	
+
