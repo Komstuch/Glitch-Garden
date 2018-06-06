@@ -16,7 +16,7 @@ public class MusicManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		audioSource = GetComponent<AudioSource>();
-	
+		audioSource.volume = PlayerPrefsManager.GetMasterVolume();
 	}
 
 	void OnLevelWasLoaded (int level){

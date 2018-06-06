@@ -44,11 +44,26 @@ public class GameTimer : MonoBehaviour {
 		bool timeIsUp = (Time.timeSinceLevelLoad >= levelSeconds);
 		
 		if (timeIsUp && !isEndOfLevel){
-			audioSource.Play ();
-			winLabel.SetActive(true);
-			coreGame.GetComponent<BoxCollider2D>().enabled = false; // Deactivate core game panel, so you cannot place new defenders
-			Invoke ("LoadNextLevel", audioSource.clip.length);
-			isEndOfLevel = true;
+			HandleWinCondition ();
+		}
+	}
+
+	void HandleWinCondition ()
+	{
+		DestroyAllTaggedObjects(); // Destroys all objects with "DestroyOnWin" tag
+		audioSource.Play ();
+		winLabel.SetActive (true);
+		coreGame.GetComponent<BoxCollider2D> ().enabled = false;
+		// Deactivate core game panel, so you cannot place new defenders
+		Invoke ("LoadNextLevel", audioSource.clip.length);
+		isEndOfLevel = true;
+	}
+	
+	void DestroyAllTaggedObjects(){
+		GameObject[] taggedObjectArray = GameObject.FindGameObjectsWithTag("DestroyOnWin");
+		
+		foreach(GameObject taggedObject in taggedObjectArray){
+			Destroy (taggedObject);
 		}
 	}
 	
