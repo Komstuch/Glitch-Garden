@@ -11,6 +11,9 @@ public class StarDisplay : MonoBehaviour {
 	
 	void Start(){
 		starText = GetComponent<Text>();
+        if (Application.loadedLevel.ToString() == "5") {
+            stars = 150;
+        }
 		UpdateDisplay();
 	}
 	
