@@ -10,7 +10,6 @@ public class Button : MonoBehaviour {
 	private Button[] buttonArray;
 	private Text costText;
 
-	// Use this for initialization
 	void Start () {
 		buttonArray = GameObject.FindObjectsOfType<Button>();
 		InitializeCost ();
@@ -26,11 +25,6 @@ public class Button : MonoBehaviour {
 		else {
 			costText.text = defenderPrefab.GetComponent<Defender> ().starCost.ToString ();
 		}
-	}
-	
-	// Update is called once per frame
-	void Update () {	
-	
 	}
 	
 	void OnMouseDown(){		

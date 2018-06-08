@@ -15,7 +15,6 @@ public class Attacker : MonoBehaviour {
 		animator = GetComponent<Animator>();
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		transform.Translate(Vector3.left * currentSpeed * Time.deltaTime); // Move the attacker
 		if(!currentTarget){
